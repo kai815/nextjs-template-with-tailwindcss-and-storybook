@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+import TestComponent from '../components/Test.tsx'
 
 const Test: FC = ()=>{
   return (
-    <div className="text-red-600">Test</div>
+    <TestComponent/>
   )
 }
 
