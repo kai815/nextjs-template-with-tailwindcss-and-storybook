@@ -1,3 +1,4 @@
+import "../styles/index.css";
 const addParameters = require('@storybook/react').addParameters;
 
 addParameters({
