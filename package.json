@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook -o build/storybook"
+    "build:storybook": "build-storybook -o build/storybook",
+    "lint": "eslint --ext .js,.ts,.tsx --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.ts,.tsx --ignore-path .gitignore ."
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
