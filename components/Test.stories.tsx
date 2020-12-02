@@ -1,8 +1,8 @@
-import React from 'react';
-import Test from './Test';
+import React from "react";
+import Test from "./Test";
 
 export default {
-  title: 'Test',
+  title: "Test",
 };
 
 export const showTest = () => <Test />;
