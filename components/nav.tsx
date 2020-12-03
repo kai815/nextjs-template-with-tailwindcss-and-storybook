@@ -1,3 +1,4 @@
+import React, { FC } from "react";
 import Link from "next/link";
 
 const links = [
@@ -5,13 +6,13 @@ const links = [
   { href: "https://nextjs.org/docs", label: "Docs" },
 ];
 
-export default function Nav() {
+const Nav: FC = () => {
   return (
     <nav>
       <ul className="flex items-center justify-between p-8">
         <li>
           <Link href="/">
-            <a className="text-blue-500 no-underline text-accent-1 dark:text-blue-300">
+            <a className="text-blue-500 no-underline dark:text-blue-300">
               Home
             </a>
           </Link>
@@ -28,4 +29,6 @@ export default function Nav() {
       </ul>
     </nav>
   );
-}
+};
+
+export default Nav;
