@@ -1,6 +1,7 @@
+import React, { FC } from "react";
 import Nav from "../components/nav";
 
-export default function IndexPage() {
+const IndexPage: FC = () => {
   return (
     <div>
       <Nav />
@@ -11,4 +12,6 @@ export default function IndexPage() {
       </div>
     </div>
   );
-}
+};
+
+export default IndexPage;
